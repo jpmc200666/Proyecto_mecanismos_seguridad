@@ -1,0 +1,24 @@
+{
+  "features": [
+    "pkts",
+    "bytes",
+    "avg_len",
+    "tcp_frac",
+    "udp_frac",
+    "icmp_frac",
+    "syn_pkts",
+    "syn_ratio",
+    "unique_src",
+    "src_entropy",
+    "top_src_share",
+    "unique_dport"
+  ],
+  "history": 5,
+  "horizon": 3,
+  "classes": [
+    "normal",
+    "syn_flood",
+    "udp_flood",
+    "icmp_flood"
+  ]
+}
